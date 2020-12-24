@@ -274,7 +274,7 @@ body {
 
 
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 991px) {
     .hero-content .entry-header h2 {
         font-size: 70px;
     }
