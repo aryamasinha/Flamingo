@@ -5,6 +5,11 @@
     display: flex;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
@@ -261,7 +266,52 @@ body {
     color: hsl(0, 0%, 90%);
     text-align: center;
 }
-/*
+
+
+@media only screen and (max-width: 600px) {
+    .hero-content .entry-header h2 {
+        font-size: 50px;
+    }
+
+    .hero-content .entry-header .entry-meta-date {
+        top: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .hero-content .entry-header h2 {
+        font-size: 80px;
+    }
+
+    .hero-content .entry-header .entry-meta-date {
+        top: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .hero-content .entry-header h2 {
+        font-size: 100px;
+    }
+
+    .hero-content .entry-header .entry-meta-date {
+        top: 15px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .hero-content .entry-header h2 {
+        font-size: 172px;
+    }
+
+    .hero-content .entry-header .entry-meta-date {
+        top: 60px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
 @media screen and (min-width: 992px) {
     .hero-content .entry-header h2 {
         font-size: 172px;
@@ -270,19 +320,28 @@ body {
     .hero-content .entry-header .entry-meta-date {
         top: 60px;
     }
-}*/
+}
 
-
-
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 990px) {
     .hero-content .entry-header h2 {
-        font-size: 70px;
+        font-size: 100px;
+    }
+
+    .hero-content .entry-header .entry-meta-date {
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .hero-content .entry-header h2 {
+        font-size: 80px;
     }
 
     .hero-content .entry-header .entry-meta-date {
         top: 10px;
     }
 }
+*/
 /*------------------------------------------------------------
 ## countdown
 ------------------------------------------------------------*/
@@ -892,6 +951,7 @@ body {
         font-size: 100px;
     }
 }
+
 
 .footer-content-wrapper .entry-mail {
     margin-top: 16px;
