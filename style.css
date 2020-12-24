@@ -268,79 +268,37 @@ body {
 
 
 @media only screen and (max-width: 600px) {
-    .hero-content .entry-header h2 {
+    .entry-header h2 {
         font-size: 50px;
     }
 
-    .hero-content .entry-header .entry-meta-date {
-        top: 10px;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .hero-content .entry-header h2 {
+    .entry-header h2 {
         font-size: 80px;
     }
 
-    .hero-content .entry-header .entry-meta-date {
-        top: 10px;
-    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .hero-content .entry-header h2 {
+    .entry-header h2 {
         font-size: 100px;
     }
 
-    .hero-content .entry-header .entry-meta-date {
-        top: 15px;
-    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .hero-content .entry-header h2 {
+    .entry-header h2 {
         font-size: 172px;
     }
 
-    .hero-content .entry-header .entry-meta-date {
-        top: 60px;
-    }
+   
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) 
-@media screen and (min-width: 992px) {
-    .hero-content .entry-header h2 {
-        font-size: 172px;
-    }
-
-    .hero-content .entry-header .entry-meta-date {
-        top: 60px;
-    }
-}
-
-@media screen and (max-width: 990px) {
-    .hero-content .entry-header h2 {
-        font-size: 100px;
-    }
-
-    .hero-content .entry-header .entry-meta-date {
-        top: 20px;
-    }
-}
-
-@media screen and (max-width: 990px) {
-    .hero-content .entry-header h2 {
-        font-size: 80px;
-    }
-
-    .hero-content .entry-header .entry-meta-date {
-        top: 10px;
-    }
-}
-*/
 /*------------------------------------------------------------
 ## countdown
 ------------------------------------------------------------*/
