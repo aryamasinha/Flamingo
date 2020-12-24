@@ -272,6 +272,17 @@ body {
     }
 }
 
+
+
+@media screen and (min-width: 375px) {
+    .hero-content .entry-header h2 {
+        font-size: 70px;
+    }
+
+    .hero-content .entry-header .entry-meta-date {
+        top: 10px;
+    }
+}
 /*------------------------------------------------------------
 ## countdown
 ------------------------------------------------------------*/
